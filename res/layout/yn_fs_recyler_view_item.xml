@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/yn_fs_size_recyler_view_item_padding"
+    android:theme="@style/yn_fs_styleTextView" >
 
+    <org.lyon_yan.app.android.lib.FileSelector.view.FontAwesomeTextView_yn_fs
+        android:id="@+id/fontAwesomeTextViewynfs"
+        android:layout_width="@dimen/yn_fs_size_recyler_view_item_icon"
+        android:layout_height="@dimen/yn_fs_size_recyler_view_item_icon"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/yn_fs_size_recyler_view_item_icon"
+        android:text="@string/yn_fs_text_file_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </LinearLayout>

@@ -4,35 +4,10 @@
     <string name="app_name">File Selector</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!-- start -->
+    <string name="yn_fs_text_file_name">....</string>
+    <string name="yn_fs_title_file_name">主目录</string>
 
+    <!-- end -->
 
-    <string name="zhou_cancel_btn">取消</string>
-    <string name="zhou_confirm_btn">确定</string>
-
-
-
-
-
-
-
-
-
-
-
-    <string-array name="theme_selects">
-        <item>Defult</item>
-        <item>White</item>
-        <item>Black</item>
-        <item>Grey</item>
-    </string-array>
-
-    <string-array name="filter_selects">
-        <item>None</item>
-        <item>Image</item>
-        <item>Text</item>
-        <item>Video</item>
-        <item>Audio</item>
-    </string-array>
-
-    <string name="positive_mode">Positive</string>
 </resources>

@@ -1,19 +1,30 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:dialogTheme">@style/MyDialog</item>
+    <style name="yn_fs_AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yn_fs_main_color</item>
+        <item name="colorPrimaryDark">@color/yn_fs_main_color</item>
+        <item name="colorAccent">@color/yn_fs_main_color</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowBackground">@color/yn_fs_windowBackground</item>
     </style>
 
-    <style name="MyDialog" parent="Theme.AppCompat.Dialog">
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowIsTranslucent">false</item>
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:height">500dp</item>
-        <item name="android:width">300dp</item>
+    <style name="yn_fs_AppTheme_Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/yn_fs_main_color</item>
+        <item name="colorPrimaryDark">@color/yn_fs_main_color_dark</item>
+        <item name="colorAccent">@color/yn_fs_main_color</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowBackground">@color/yn_fs_windowBackground</item>
+    </style>
+
+    <style name="yn_fs_styleViewToolBar">
+        <item name="titleTextColor">?attr/colorControlNormal</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="subtitleTextColor">?attr/colorControlNormal</item>
+    </style>
+
+    <style name="yn_fs_styleTextView">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">@dimen/yn_fs_size_recyler_view_item_text_size</item>
     </style>
 
 </resources>

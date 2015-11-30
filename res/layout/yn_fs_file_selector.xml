@@ -1,0 +1,28 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/yn_fs_AppTheme" >
+
+    <org.lyon_yan.app.android.lib.FileSelector.view.RecylerView_yn_fs
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize" >
+    </org.lyon_yan.app.android.lib.FileSelector.view.RecylerView_yn_fs>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <org.lyon_yan.app.android.lib.FileSelector.view.Toolbar_yn_fs
+            android:id="@+id/toolbar"
+            style="@style/yn_fs_styleViewToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:navigationIcon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            app:title="@string/yn_fs_title_file_name" />
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
